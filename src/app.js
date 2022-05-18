@@ -35,8 +35,8 @@ app.get('/about', (req, res) => {
     })
 })
 
-app.get('/faq', (req, res) => {
-    res.render('Help', {
+app.get('/help', (req, res) => {
+    res.render('help', {
         found: true,
         title: 'Help',
         message: 'This is a message'
